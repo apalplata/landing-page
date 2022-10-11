@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/205b1ae630.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Product Landing Page</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <img id="header-img" class="logo" src="https://live.staticflickr.com/65535/52419992602_3835155bf6_n.jpg" alt="The Stationery Logo">
+    <nav id="nav-bar" class="nav-bar">
+      <ul class="navbar-list">
+        <li>
+          <a href="#features" class="nav-link">Features</a>
+        </li>
+        <li>
+          <a href="#new-arrivals" class="nav-link">New arrivals</a>
+        </li>
+        <li>
+          <a href="#subscription-boxes" class="nav-link">Subscription boxes</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="features" class="features">
+      <h2 class="subtitle">Everyday low price stationery</h2>
+    
+    <div class="newsletter">
+      <form action="https://www.freecodecamp.com/email-submit" class="email-form" id="form" method="post" target="_blank">
+        <label for="email">
+          <input class="email" type="email" id="email" placeholder="Enter your email address" name="email">
+        </label>
+        <input type="submit" class="submit-button" value="Get Started" id="submit">
+      </form>
+    </div>
+
+      <div class="promo">
+        <i class="fa-solid fa-tags fa-3x"></i>
+        <div class="info">
+          <h2 class="features-subtitle">Buy 2, get 1 free!</h2>
+          <p>On all selected accesories. Discount applied automatically at checkout.</p>
+        </div>
+      </div>
+
+      <div class="shipping">
+        <i class="fa-solid fa-truck-fast fa-3x"></i>
+        <div class="info">
+          <h2 class="features-subtitle">Free Shipping</h2>
+          <p>We always deliver. Free shipping when you spend $75 or more.</p>
+        </div>
+      </div>
+
+      <div class="loyalty">
+        <i class="fa-solid fa-circle-check fa-3x"></i>
+        <div class="info">
+          <h2 class="features-subtitle">Rewards</h2>
+            <p>As a The Stationery loyalty member, you will gain access to exclusive perks and earn rewards every time you shop.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="new-arrivals" class="new-arrivals">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cfiNAbgAtKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video" class="new-video"></iframe>
+    </section>
+
+    <section id="subscription-boxes" class="subscription-boxes">
+      <div class="seasonal">
+        <div class="box-title">Seasonal Stationery Box</div>
+        <div class="price-cont"><h2 class="box-price">$32</h2></div>
+        <div class="description-cont"><p class="description">For planner enthusiasts, this box of labels, pens, notebooks, washi tape, and greeting cards feels like Christmas comes around every three months.</p></div>
+        <div class="button-cont"><input type="submit" value="Select" class="select-button"></div>
+      </div>
+
+      <div class="japanese">
+        <div class="box-title">Japanese Stationery Selection</div>
+        <div class="price-cont"><h2 class="box-price">$35</h2></div>
+        <div class="description-cont"><p class="description">We've been mildly obsessed with Japanese stationery since our Sanrio days in elementary school. This box is the sophisticated version of those silky smooth pens and decorated paper, minus the quirky Kawaii vibes.</p></div>
+        <div class="button-cont"><input type="submit" value="Select" class="select-button"></div>
+      </div>
+
+      <div class="cloth-paper">
+        <div class="box-title">Cloth & Paper</div>
+        <div class="price-cont"><h2 class="box-price">$20</h2></div>
+        <div class="description-cont"><p class="description">Pens, paper, or both? Cloth & Paper lets you choose among a stationery box, writing box, or, you guessed it, a combination of the two. Regardless of the option, your desk will get a serious refresh of luxe stationery supplies every month.</p></div>
+        <div class="button-cont"><input type="submit" value="Select" class="select-button"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <ul class="footer-list">
+      <li>
+        <a href="#" class="footer-link">Privacy</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Terms</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Contact</a>
+      </li>
+    </ul>
+    <p class="copyright">The Stationery (training project) by Angelica Palencia <sup>&copy</sup> 2022</p>
+  </footer>
+
+</body>
+</html>
