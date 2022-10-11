@@ -4,4 +4,4 @@
 
 Esta página ha sido creada utilizando HTML5 y CSS3, aplicando flexbox y media query para hacerla responsiva ante diversos dispositivos a partir de 375px.
 
-<img src="img-muestra/375px.PNG">
+<img src="img-muestra/375px.PNG"><img src="img-muestra/425px.PNG"><img src="img-muestra/768px.PNG">
