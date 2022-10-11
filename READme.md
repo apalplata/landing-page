@@ -1,4 +1,4 @@
-#The Stationary
+<h2>The Stationary Landing Page</h2>
 
 ###Landing page elaborada como proyecto personal para una papelería ficticia llamada The Stationery.
 
